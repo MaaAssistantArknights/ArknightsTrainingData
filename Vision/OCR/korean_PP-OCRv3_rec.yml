@@ -2,7 +2,7 @@ Global:
   debug: false
   use_gpu: true
   #use_amp: true
-  epoch_num: 500
+  epoch_num: 150
   log_smooth_window: 20
   print_batch_step: 100
   save_model_dir: ./output/ko_KR/model/epoch
