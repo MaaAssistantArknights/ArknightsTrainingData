@@ -1,5 +1,4 @@
- 
-import onnx
+ import onnx
 import onnxoptimizer
 model = onnx.load("./inference.onnx")
 new_model = onnxoptimizer.optimize(model)
