@@ -1,4 +1,3 @@
- 
 paddle2onnx --model_dir ./ \
 --model_filename inference.pdmodel \
 --params_filename inference.pdiparams \
